@@ -49,10 +49,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(33.9212412,-84.3465625)).title("Dunwoody"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(34.038688,-84.3153245)).title("Mansell Road"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(34.0863471,-84.263156)).title("Windward Park"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(33.9011509,-84.2844297)).title("Doraville"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(33.8878166,-84.307585)).title("Chamblee"));
         /*mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
@@ -61,7 +61,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(33.931838,-84.3528964)).title("Sandy Springs"));*/
 
-        float zoomLevel = 11.0f;
+        float zoomLevel =10.0f;
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(current_pos, zoomLevel));
     }
 
