@@ -13,4 +13,12 @@
     tools:context="com.smartahack2017.Parking_lot"
     tools:showIn="@layout/activity_parking_lot">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/p10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:id="@+id/imageView" />
 </RelativeLayout>

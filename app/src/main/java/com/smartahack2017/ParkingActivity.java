@@ -41,4 +41,5 @@ public class ParkingActivity extends AppCompatActivity implements AdapterView.On
         ParkingActivity.this.startActivity(myIntent);
     }
 
+
 }
