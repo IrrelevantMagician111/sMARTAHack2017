@@ -36,5 +36,9 @@ public class ParkingActivity extends AppCompatActivity implements AdapterView.On
         if(pos != 0){Intent myIntent = new Intent(ParkingActivity.this,Parking_lot.class);
         ParkingActivity.this.startActivity(myIntent);}
     }
+    public void buttonClicked(View v) {
+        Intent myIntent = new Intent(ParkingActivity.this,MapsActivity.class);
+        ParkingActivity.this.startActivity(myIntent);
+    }
 
 }
