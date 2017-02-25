@@ -1,5 +1,6 @@
 package com.smartahack2017;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -27,11 +28,13 @@ public class ParkingActivity extends AppCompatActivity implements AdapterView.On
             }
         });
         Spinner dropdown;
-        dropdown = (Spinner)findviewById(R.id.spinner);
+        dropdown = (Spinner) findViewById(R.id.spinner);
         dropdown.setOnItemSelectedListener(this);
     }
-    public void onItemSelected(AdapterView<?> parent, View view, int pos, log id){
-
+    public void onNothingSelected(AdapterView<?> parent){}
+    public void onItemSelected(AdapterView<?> parent, View view, int pos, long id){
+        if(pos != 0){Intent myIntent = new Intent(ParkingActivity.this,Parking_lot.class);
+        ParkingActivity.this.startActivity(myIntent);}
     }
 
 }

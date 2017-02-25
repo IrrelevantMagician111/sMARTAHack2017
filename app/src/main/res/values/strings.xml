@@ -3,6 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_parking">ParkingActivity</string>
     <string-array name="parking_locs">
+        <item>None</item>
         <item>North Spring</item>
         <item>Sandy Spring</item>
         <item>Dunwoody </item>
