@@ -2,7 +2,37 @@
     <string name="app_name">sMARTAHack2017</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_parking">ParkingActivity</string>
-    <string name="title_activity_n0tificati0ns">N0tificati0ns</string>
+    <string-array name="parking_locs">
+        <item>North Spring</item>
+        <item>Sandy Spring</item>
+        <item>Dunwoody </item>
+        <item>Mansell Road</item>
+        <item>Windward Parkway</item>
+        <item>Doraville</item>
+        <item>Chamblee</item>
+        <item>Brookhaven</item>
+        <item>Lenox</item>
+        <item>Lindbergh Center</item>
+        <item>Inman Park</item>
+        <item>Edgewood/Candler Park</item>
+        <item>East Lake</item>
+        <item>Avondale</item>
+        <item>Kensington</item>
+        <item>Indian Creek</item>
+        <item>Bankhead</item>
+        <item>Ashby</item>
+        <item>West Lake</item>
+        <item>Oakland</item>
+        <item>Lakewood/Ft.McPherson</item>
+        <item>East Point</item>
+        <item>College Park</item>
+        <item>Barge Road</item>
+        <item>South Fulton</item>
+        <item>Riverdale</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_parking_lot">Parking_lot</string>
+    <string name="title_activity_notifications">Notifications</string>
 
     <!-- Strings related to Settings -->
 

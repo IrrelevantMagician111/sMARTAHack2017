@@ -1,0 +1,126 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="one"
+        android:title="North Springs" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="2"
+        android:title="Sandy Springs " />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="3"
+        android:title="Dunwoddy" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="4"
+        android:title="Mansell Road"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="5"
+        android:title="Windward"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="6"
+        android:title="Doraville"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="7"
+        android:title="Chamblee" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="8"
+        android:title="Brookehaven" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="9"
+        android:title="Lenox" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="10"
+        android:title="Lindberg" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="11"
+        android:title="Inman Park" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="12"
+        android:title="Edgewood" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="13"
+        android:title="East Lake" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="14"
+        android:title="Avondale" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="15"
+        android:title="Kensington" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="16"
+        android:title="Indian Creek" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="17"
+        android:title="Bankhead" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="18"
+        android:title="Ashby" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="19"
+        android:title="West Lake" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="20"
+        android:title="Oakland" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="21"
+        android:title="Lakewood" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="22"
+        android:title="East Point" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="23"
+        android:title="College Park" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="24"
+        android:title="Barge Rade" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="25"
+        android:title="Sth Fltn" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="26"
+        android:title="Riverdale" />
+    <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+    <!--RingtonePreference
+        android:defaultValue="content://settings/system/notification_sound"
+        android:dependency="notifications_new_message"
+        android:key="notifications_new_message_ringtone"
+        android:ringtoneType="notification"
+        android:title="@string/pref_title_ringtone" /-->
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!--SwitchPreference
+        android:defaultValue="true"
+        android:dependency="notifications_new_message"
+        android:key="notifications_new_message_vibrate"
+        android:title="@string/pref_title_vibrate" /-->
+
+</PreferenceScreen>
