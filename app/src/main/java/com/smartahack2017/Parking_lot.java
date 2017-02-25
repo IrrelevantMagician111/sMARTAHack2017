@@ -6,15 +6,13 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Spinner;
 
-public class ParkingActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
+public class Parking_lot extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parking);
+        setContentView(R.layout.activity_parking_lot);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -26,12 +24,6 @@ public class ParkingActivity extends AppCompatActivity implements AdapterView.On
                         .setAction("Action", null).show();
             }
         });
-        Spinner dropdown;
-        dropdown = (Spinner)findviewById(R.id.spinner);
-        dropdown.setOnItemSelectedListener(this);
-    }
-    public void onItemSelected(AdapterView<?> parent, View view, int pos, log id){
-
     }
 
 }

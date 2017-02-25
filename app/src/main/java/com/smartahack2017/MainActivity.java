@@ -1,5 +1,6 @@
 package com.smartahack2017;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -50,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void buttonClick(View v) {
-
+    public void buttonClicked(View v) {
+        Intent myIntent = new Intent(MainActivity.this,ParkingActivity.class);
+        MainActivity.this.startActivity(myIntent);
     }
 }

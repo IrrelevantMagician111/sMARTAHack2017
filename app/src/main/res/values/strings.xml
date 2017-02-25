@@ -3,12 +3,33 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_parking">ParkingActivity</string>
     <string-array name="parking_locs">
-        <item>North Atlanta</item>
-        <item>Northeast Atlanta</item>
-        <item>Buckhead/Midtown</item>
-        <item>East Atlanta</item>
-        <item>West Atlanta</item>
-        <item>South Atlanta</item>
+        <item>North Spring</item>
+        <item>Sandy Spring</item>
+        <item>Dunwoody </item>
+        <item>Mansell Road</item>
+        <item>Windward Parkway</item>
+        <item>Doraville</item>
+        <item>Chamblee</item>
+        <item>Brookhaven</item>
+        <item>Lenox</item>
+        <item>Lindbergh Center</item>
+        <item>Inman Park</item>
+        <item>Edgewood/Candler Park</item>
+        <item>East Lake</item>
+        <item>Avondale</item>
+        <item>Kensington</item>
+        <item>Indian Creek</item>
+        <item>Bankhead</item>
+        <item>Ashby</item>
+        <item>West Lake</item>
+        <item>Oakland</item>
+        <item>Lakewood/Ft.McPherson</item>
+        <item>East Point</item>
+        <item>College Park</item>
+        <item>Barge Road</item>
+        <item>South Fulton</item>
+        <item>Riverdale</item>
     </string-array>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_parking_lot">Parking_lot</string>
 </resources>

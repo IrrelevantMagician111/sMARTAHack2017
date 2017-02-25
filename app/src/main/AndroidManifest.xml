@@ -41,6 +41,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity
+            android:name=".Parking_lot"
+            android:label="@string/title_activity_parking_lot"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
