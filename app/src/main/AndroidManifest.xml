@@ -21,7 +21,10 @@
         <activity
             android:name=".ParkingActivity"
             android:label="@string/title_activity_parking"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".N0tificati0ns"
+            android:label="@string/title_activity_n0tificati0ns"></activity>
     </application>
 
 </manifest>
